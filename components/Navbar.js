@@ -1,11 +1,12 @@
 // import the link component from NEXT JS
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1> Ninja List</h1>
+        <Image src="/LEVERETT.png" alt="logo" width={128} height={125} />
       </div>
       <Link href="/">
         <a>Home</a>
